@@ -7,9 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcExpPoint.Android", "Cal
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CalcExpPoint", "CalcExpPoint\CalcExpPoint\CalcExpPoint.shproj", "{41640AD5-6E18-4211-9978-10A2514B40A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcExpPoint.WPF", "CalcExpPoint.WPF\CalcExpPoint.WPF.csproj", "{7EBFF19C-2CDB-4040-86AF-DD9193A3ECF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcExpPoint.GTK", "CalcExpPoint.GTK\CalcExpPoint.GTK.csproj", "{223804C4-D201-4AE3-AF13-591FA6115601}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CalcExpPoint\CalcExpPoint\CalcExpPoint.projitems*{223804c4-d201-4ae3-af13-591fa6115601}*SharedItemsImports = 4
 		CalcExpPoint\CalcExpPoint\CalcExpPoint.projitems*{41640ad5-6e18-4211-9978-10a2514b40a3}*SharedItemsImports = 13
+		CalcExpPoint\CalcExpPoint\CalcExpPoint.projitems*{7ebff19c-2cdb-4040-86af-dd9193a3ecf1}*SharedItemsImports = 4
 		CalcExpPoint\CalcExpPoint\CalcExpPoint.projitems*{c3939a23-b8ac-4d30-a2c1-eed5dfbd3caa}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{C3939A23-B8AC-4D30-A2C1-EED5DFBD3CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3939A23-B8AC-4D30-A2C1-EED5DFBD3CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3939A23-B8AC-4D30-A2C1-EED5DFBD3CAA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7EBFF19C-2CDB-4040-86AF-DD9193A3ECF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBFF19C-2CDB-4040-86AF-DD9193A3ECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBFF19C-2CDB-4040-86AF-DD9193A3ECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBFF19C-2CDB-4040-86AF-DD9193A3ECF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223804C4-D201-4AE3-AF13-591FA6115601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223804C4-D201-4AE3-AF13-591FA6115601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223804C4-D201-4AE3-AF13-591FA6115601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223804C4-D201-4AE3-AF13-591FA6115601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
