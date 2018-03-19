@@ -14,7 +14,16 @@ namespace CalcExpPoint
 		public MainViewModel()
 		{
 			CalcCommand.Subscribe(_ => {
-				OutputMessage.Value = "テスト";
+				if(NowLevel.Value <= 0 || NowLevel.Value > 165)
+				{
+					OutputMessage.Value = "エラー：現在のレベルは1以上165以下の整数で入力してください";
+				}else if (EndLevel.Value <= 0 || EndLevel.Value > 165)
+				{
+					OutputMessage.Value = "エラー：目標のレベルは1以上165以下の整数で入力してください";
+				}
+				else {
+					OutputMessage.Value = $"{Library.WantExpByLevelDifference(NowLevel.Value, EndLevel.Value)}";
+				}
 			});
 		}
 
