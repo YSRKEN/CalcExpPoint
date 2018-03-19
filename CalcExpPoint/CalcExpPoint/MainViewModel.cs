@@ -22,11 +22,12 @@ namespace CalcExpPoint
 					OutputMessage.Value = "エラー：目標のレベルは1以上165以下の整数で入力してください";
 				}
 				else {
-					OutputMessage.Value = $"{Library.WantExpByLevelDifference(NowLevel.Value, EndLevel.Value)}";
+					OutputMessage.Value = $"必要経験値：{Library.WantExpByLevelDifference(NowLevel.Value, EndLevel.Value)}";
 				}
 			});
 		}
 
+#pragma warning disable 0067
 		public event PropertyChangedEventHandler PropertyChanged;
 	}
 }
